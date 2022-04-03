@@ -2,7 +2,7 @@ import Head from "next/head";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 
-import MarketingLayout from "../src/layouts/marketing";
+import LandingLayout from "../src/layouts/landing";
 import type { Page } from "../src/types/page";
 
 const Home: Page = () => {
@@ -23,6 +23,6 @@ const Home: Page = () => {
   );
 };
 
-Home.getLayout = MarketingLayout;
+Home.getLayout = LandingLayout;
 
 export default Home;
