@@ -29,7 +29,7 @@ const footerItems = [
   },
 ];
 
-const MarketingLayout = (page: ReactElement) => (
+const LandingLayout = (page: ReactElement) => (
   <>
     <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }} />
     <AppBar
@@ -87,4 +87,4 @@ const MarketingLayout = (page: ReactElement) => (
   </>
 );
 
-export default MarketingLayout;
+export default LandingLayout;
