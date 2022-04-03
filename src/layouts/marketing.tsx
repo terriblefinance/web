@@ -8,6 +8,8 @@ import Link from "@mui/material/Link";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Container from "@mui/material/Container";
 
+import Copyright from "../components/copyright";
+
 const footerItems = [
   {
     header: "Company",
@@ -80,14 +82,7 @@ const MarketingLayout = (page: ReactElement) => (
           </Grid>
         ))}
       </Grid>
-      <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 5 }}>
-        {"Copyright © "}
-        <Link color="inherit" href="/">
-          Terrible
-        </Link>{" "}
-        {new Date().getFullYear()}
-        {"."}
-      </Typography>
+      <Copyright />
     </Container>
   </>
 );
